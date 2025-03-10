@@ -10,7 +10,7 @@ const CourseSection = () => {
   }, [getAllCourse]);
 
   return (
-    <div className="container mx-auto pt-28 px-[6%] pb-8">
+    <div className="container mx-auto pt-28 px-[6%] pb-8" id="courses">
       <h2 className="text-3xl font-bold mb-6 text-center">Courses</h2>
       <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6">
         {courses?.map((course) => (

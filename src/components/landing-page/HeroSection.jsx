@@ -13,9 +13,12 @@ const HeroSection = () => {
           Bersama kami, Anda dapat mengembangkan skill dan karier lebih cepat.
         </p>
 
-        <button className="mt-6 bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 sm:mt-8">
-          Gabung Sekarang
-        </button>
+        <a
+          href="#courses"
+          className="mt-6 bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 sm:mt-8"
+        >
+          lihat course
+        </a>
       </div>
 
       {/* Image */}

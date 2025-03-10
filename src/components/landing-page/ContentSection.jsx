@@ -42,7 +42,7 @@ const difficulties = [
 
 const JobDifficultyCard = ({ title, icon, points }) => {
   return (
-    <div className="bg-white shadow-md rounded-lg p-5 border border-gray-200 pt-28 px-[6%] pb-6">
+    <div className="bg-white shadow-md rounded-lg p-5 border border-gray-200 ">
       <div className="flex justify-between items-center border-b pb-2 mb-3">
         <h4 className="font-semibold text-lg">{title}</h4>
         {icon}
@@ -58,7 +58,7 @@ const JobDifficultyCard = ({ title, icon, points }) => {
 
 const ContentSection = () => {
   return (
-    <section className="bg-blue-50 py-10">
+    <section className="bg-blue-50 py-10 pt-28 px-[6%] pb-6">
       <div className="max-w-4xl mx-auto text-center mb-6">
         <h2 className="text-2xl font-bold">Susah Cari Kerja?</h2>
         <p className="text-gray-600">

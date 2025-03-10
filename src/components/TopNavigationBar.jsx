@@ -15,7 +15,7 @@ import { useCourseStore } from "@/store/useCourseStore";
 
 const TopNavigationBar = () => {
   const navigate = useNavigate();
-  const { carts, getAllCourseFromCart } = useCourseStore();
+  const { carts, getAllCourseFromCart, search, setSearch } = useCourseStore();
   const { logout, isAuthenticated, username, roleName } = useAuthStore();
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef(null);
@@ -30,6 +30,11 @@ const TopNavigationBar = () => {
     setIsOpen((prev) => !prev);
   };
 
+  const handleSearchChange = (e) => {
+    const value = e.target.value;
+    console.log("test");
+    setSearch(value);
+  };
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
@@ -57,15 +62,24 @@ const TopNavigationBar = () => {
       <div className="relative inline-block text-left" ref={dropdownRef}>
         <div className="flex items-center gap-5">
           {roleName === "Student" && !location.pathname.startsWith("/lms") && (
-            <div className="relative">
-              <FaShoppingCart
-                className="text-2xl"
-                onClick={() => navigate("/cart")}
+            <>
+              <input
+                type="text"
+                placeholder="search.."
+                className="border border-gray-300 rounded-md px-2 py-1 ml-2 focus:outline-none focus:border-blue-500"
+                value={search}
+                onChange={handleSearchChange}
               />
-              <span className="absolute top-0 right-0 inline-flex items-center justify-center px-1.5 py-0.5 text-xs font-bold leading-none text-red-100 transform translate-x-1/2 -translate-y-1/2 bg-red-600 rounded-full">
-                {carts.length}
-              </span>
-            </div>
+              <div className="relative">
+                <FaShoppingCart
+                  className="text-2xl"
+                  onClick={() => navigate("/cart")}
+                />
+                <span className="absolute top-0 right-0 inline-flex items-center justify-center px-1.5 py-0.5 text-xs font-bold leading-none text-red-100 transform translate-x-1/2 -translate-y-1/2 bg-red-600 rounded-full">
+                  {carts.length}
+                </span>
+              </div>
+            </>
           )}
           <button
             type="button"
