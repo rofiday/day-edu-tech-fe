@@ -55,14 +55,14 @@ VITE_API_URL =you_api_url
 # 🚀 Installation
 1.  Clone the repository
 
-git clone https://github.com/rofiday/day-edu-tech-fe.git
+		git clone https://github.com/rofiday/day-edu-tech-fe.git
 
 2.  Install the dependencies
 
-npm install
+		npm install
 
 3.  Start the Project
 
-npm run dev
+		npm run dev
 #
 notes: you can setup config be here: [backendConfiguration](https://github.com/rofiday/day-edu-tech-be.git)
