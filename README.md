@@ -11,23 +11,7 @@ merupakan sebuah platform lms yang menyediakan berbagai macam course dengan berb
 # Tech Stack
 
  <div align="center"> <code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/rest.png" alt="REST" title="REST"/></code> <code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/postman.png" alt="Postman" title="Postman"/></code> <code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/tailwind_css.png" alt="Tailwind CSS" title="Tailwind CSS"/></code> <code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/swagger.png" alt="Swagger" title="Swagger"/></code> <code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/firebase.png" alt="Firebase" title="Firebase"/></code> <code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/shadcn_ui.png" alt="ShadCn UI" title="ShadCn UI"/></code> <code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/react.png" alt="React" title="React"/></code> <code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/node_js.png" alt="Node.js" title="Node.js"/></code> <code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/express.png" alt="Express" title="Express"/></code> <code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/jest.png" alt="Jest" title="Jest"/></code> <code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/vite.png" alt="Vite" title="Vite"/></code> <code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/mysql.png" alt="MySQL" title="MySQL" width="80"/></code> 
-<code><img src="https://miro.medium.com/v2/resize:fit:800/1*fKV3_Y4usDYZKPsNp1yCvA.png" alt="Zustand" width="80"/>
-</code>
-<code>
-<img src="https://i0.wp.com/community.nodemailer.com/wp-content/uploads/2015/10/n2-2.png?fit=422%2C360&ssl=1" alt="Nodemailer" width="80"/>
-</code>
-<code><img src="http://image.web.id/images/Screenshot-2019-05-14-at-13.53.46.webp" alt="Image" width="80"/>
-</code>
-<code>
-<img src="https://miro.medium.com/v2/resize:fit:1093/1*aEhFvssY5zz4NsasUBRayQ.png" alt="Tech Image 1" width="80"/>
-</code>
-<code>
-<img src="https://nurosoft.id/blog/wp-content/uploads/2024/06/Midtrans.webp" alt="Midtrans" width="80"/>
-
-</code>
-
-
-</div>
+<code><img src="https://miro.medium.com/v2/resize:fit:800/1*fKV3_Y4usDYZKPsNp1yCvA.png" alt="Zustand" width="80"/></code><code><img src="https://i0.wp.com/community.nodemailer.com/wp-content/uploads/2015/10/n2-2.png?fit=422%2C360&ssl=1" alt="Nodemailer" width="50"/></code><code><img src="http://image.web.id/images/Screenshot-2019-05-14-at-13.53.46.webp" alt="Image" width="50"/></code><code><img src="https://miro.medium.com/v2/resize:fit:1093/1*aEhFvssY5zz4NsasUBRayQ.png" alt="Tech Image 1" width="50"/></code><code><img src="https://nurosoft.id/blog/wp-content/uploads/2024/06/Midtrans.webp" alt="Midtrans" width="50"/></code></div>
 
 
  # Feature
