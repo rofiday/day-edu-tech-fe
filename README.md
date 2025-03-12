@@ -53,11 +53,16 @@ VITE_MIDTRANS_SNAP_URL=you_midtrans_snap_url
 VITE_API_URL =you_api_url
 
 # 🚀 Installation
-1. Clone repository
+1.  Clone the repository
+
 git clone https://github.com/rofiday/day-edu-tech-fe.git
-2. install dependencies
-	npm install
-3. start the project
-	npm run dev
+
+2.  Install the dependencies
+
+npm install
+
+3.  Start the Project
+
+npm run dev
 #
 notes: you can setup config be here: [backendConfiguration](https://github.com/rofiday/day-edu-tech-be.git)
