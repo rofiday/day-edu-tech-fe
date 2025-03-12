@@ -2,11 +2,11 @@
 merupakan sebuah platform lms yang menyediakan berbagai macam course dengan berbagai program, baik dari bootcamp, mini bootcamp,1on1 mentoring, video course, dengan adanya lms memungkinkan untuk membantu student belajar sesuai dengan curriculum untuk dipersiapkan ke dunia industri.
 
 # Table of Content
- -🎥Demo
- -🛠️Tech Stack
- -✨Features
- -🔐environment
- =🚀 installation
+- 🎥Demo
+- 🛠️Tech Stack
+- ✨Features
+- 🔐environment
+- 🚀installation
 
 # Tech Stack
 
