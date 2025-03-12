@@ -16,22 +16,22 @@ merupakan sebuah platform lms yang menyediakan berbagai macam course dengan berb
 
  # Feature
 
-| Features      | Description         |
-| ------------- |:-------------:| -----:|			
-Auth| ✅ Register dan login menggunakan email atau google
-|				|🔐fitur forgot password
-|			|	📩Email verifikasi
-|🗝️Security Payload| 🔐encrypt dan decrypt data payload
-|🛒Cart   |➕menambahkan ke keranjang
-|			|➖menghapus ke ranjang
-| 📚Courses| 📚berisikan kumpulan course
-|				| 💻LMS materi dari course
-|📦Order | 📕kumpulan orderan yang dipilih
-|			| ✅Status Order dan view transaksi
-|			|❌ Cancel order
-| 💳Payment| 💵Payment Gateway with midtrans
-|👨‍💼Admin |✏️ Full CRUD untuk membuat course, section,curriculum,user.  
-|				|📊 melihat semua transaksi
+| Features           | Description                                   |
+|--------------------|---------------------------------------------|
+| **Auth**          | ✅ Register dan login menggunakan email atau Google |
+|                  | 🔐 Fitur forgot password                     |
+|                  | 📩 Email verifikasi                          |
+| **🗝️ Security Payload** | 🔐 Encrypt dan decrypt data payload        |
+| **🛒 Cart**        | ➕ Menambahkan ke keranjang                   |
+|                  | ➖ Menghapus dari keranjang                   |
+| **📚 Courses**    | 📚 Berisikan kumpulan course                 |
+|                  | 💻 LMS materi dari course                     |
+| **📦 Order**      | 📕 Kumpulan orderan yang dipilih              |
+|                  | ✅ Status order dan view transaksi            |
+|                  | ❌ Cancel order                               |
+| **💳 Payment**    | 💵 Payment Gateway dengan Midtrans          |
+| **👨‍💼 Admin**     | ✏️ Full CRUD untuk course, section, curriculum, dan user |
+|                  | 📊 Melihat semua transaksi                   |
 
 # Environment Variables
 VITE_FIREBASE_API_KEY=you_firebase_api_key
